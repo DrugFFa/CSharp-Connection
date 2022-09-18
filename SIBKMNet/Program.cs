@@ -1,4 +1,6 @@
-﻿using SIBKMNet.Models;
+﻿//Daffa Amanullah (A11.2019.11993)
+
+using SIBKMNet.Models;
 using System;
 using System.Data.SqlClient;
 
@@ -33,8 +35,8 @@ namespace SIBKMNet
             Country country = new Country()
             {
                 Name = "Waktu Solat Hajat",
-                Pembaruan = "Waktu Adzan Isya",
-                Id =30
+                Pembaruan = "Waktu Adzan Subuh",
+                Id =31
 
             };
             //program.Insert(country);
@@ -151,7 +153,7 @@ namespace SIBKMNet
 
                 try
                 {
-                    sqlCommand.CommandText = "UPDATE Country SET name = (@pembaruan) "+"WHERE Id = (@id)";
+                    sqlCommand.CommandText = "UPDATE Country SET name = @pembaruan "+"WHERE Id = @id";
                     sqlCommand.ExecuteNonQuery();
                     sqlTransaction.Commit();
                 }
