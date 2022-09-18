@@ -1,0 +1,42 @@
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\bin\Debug\netcoreapp3.1\SIBKMNet.exe
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\bin\Debug\netcoreapp3.1\SIBKMNet.deps.json
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\bin\Debug\netcoreapp3.1\SIBKMNet.runtimeconfig.json
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\bin\Debug\netcoreapp3.1\SIBKMNet.runtimeconfig.dev.json
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\bin\Debug\netcoreapp3.1\SIBKMNet.dll
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\bin\Debug\netcoreapp3.1\SIBKMNet.pdb
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.csproj.AssemblyReference.cache
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.AssemblyInfoInputs.cache
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.AssemblyInfo.cs
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.csproj.CoreCompileInputs.cache
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.dll
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.pdb
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.genruntimeconfig.cache
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Naufal Aji Wibowo\source\repos\SIBKMNet\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.csproj.CopyComplete
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\bin\Debug\netcoreapp3.1\SIBKMNet.exe
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\bin\Debug\netcoreapp3.1\SIBKMNet.deps.json
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\bin\Debug\netcoreapp3.1\SIBKMNet.runtimeconfig.json
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\bin\Debug\netcoreapp3.1\SIBKMNet.runtimeconfig.dev.json
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\bin\Debug\netcoreapp3.1\SIBKMNet.dll
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\bin\Debug\netcoreapp3.1\SIBKMNet.pdb
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.csproj.AssemblyReference.cache
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.GeneratedMSBuildEditorConfig.editorconfig
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.AssemblyInfoInputs.cache
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.AssemblyInfo.cs
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.csproj.CoreCompileInputs.cache
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.csproj.CopyComplete
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.dll
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.pdb
+D:\MSIB 3\Github\SIBKMConnection\SIBKMNet\obj\Debug\netcoreapp3.1\SIBKMNet.genruntimeconfig.cache
