@@ -32,20 +32,26 @@ namespace SIBKMNet
 
             Country country = new Country()
             {
-                Name = "Waktu Solat Tahajud"
-
-
-                //Pembaruan = "Waktu Adzan Isya"
+                Name = "Waktu Solat Hajat",
+                Pembaruan = "Waktu Adzan Isya",
+                Id =30
 
             };
             //program.Insert(country);
 
-            //program.Update("Waktu Adzan Isya",1);
+            
             program.GetAll();
-            program.Delete(country);
+            //program.Delete(country);
+            program.Pemisah();
+            program.Update(country);
             program.GetAll();
         }
+        public void Pemisah()
+        {
 
+            Console.WriteLine("----------------------");
+
+        }
         void GetAll()
         {
             string query = "SELECT * FROM Country";
@@ -117,41 +123,42 @@ namespace SIBKMNet
 
         // Update
 
-        void Update(string pembaruan, int id)
+        void Update(Country country)
         {
-            string query = "SELECT * FROM Country WHERE Id = @id";
-
-            SqlParameter sqlParameter = new SqlParameter();
-            sqlParameter.ParameterName = "@id";
-            sqlParameter.Value = id;
-
-            sqlConnection = new SqlConnection(connectionString);
-            SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
-            sqlCommand.Parameters.Add(sqlParameter);
-            try
+            using (SqlConnection sqlConnection = new SqlConnection(connectionString))
             {
                 sqlConnection.Open();
-                using (SqlDataReader sqlDataReader = sqlCommand.ExecuteReader())
-                {
+                SqlTransaction sqlTransaction = sqlConnection.BeginTransaction();
 
-                    if (sqlDataReader.HasRows)
-                    {
-                        while (sqlDataReader.Read())
-                        {
-                            Console.WriteLine(sqlDataReader[0] + " - " + sqlDataReader[1]);
-                        }
-                    }
-                    else
-                    {
-                        Console.WriteLine("No Data Rows");
-                    }
-                    sqlDataReader.Close();
+                SqlCommand sqlCommand = sqlConnection.CreateCommand();
+                sqlCommand.Transaction = sqlTransaction;
+
+                SqlParameter sqlParameter = new SqlParameter();
+                SqlParameter sqlParameter1 = new SqlParameter();
+                SqlParameter sqlParameter2 = new SqlParameter();
+                sqlParameter.ParameterName = "@name";
+                sqlParameter.Value = country.Name;
+                sqlParameter1.ParameterName = "@pembaruan";
+                sqlParameter1.Value = country.Pembaruan;
+                sqlParameter2.ParameterName = "@id";
+                sqlParameter2.Value = country.Id;
+                //Console.WriteLine(country.Pembaruan);
+                //Console.WriteLine(country.Id);
+
+                sqlCommand.Parameters.Add(sqlParameter);
+                sqlCommand.Parameters.Add(sqlParameter1);
+                sqlCommand.Parameters.Add(sqlParameter2);
+
+                try
+                {
+                    sqlCommand.CommandText = "UPDATE Country SET name = (@pembaruan) "+"WHERE Id = (@id)";
+                    sqlCommand.ExecuteNonQuery();
+                    sqlTransaction.Commit();
                 }
-                sqlConnection.Close();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.InnerException);
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.InnerException);
+                }
             }
         }
         void Insert(Country country)
@@ -173,7 +180,7 @@ namespace SIBKMNet
                 try
                 {
                     sqlCommand.CommandText = "INSERT INTO Country " +
-                        "(Name) VALUES (@name)";
+                        "(name) VALUES (@name)";
                     sqlCommand.ExecuteNonQuery();
                     sqlTransaction.Commit();
                 }
@@ -197,14 +204,14 @@ namespace SIBKMNet
                 sqlCommand.Transaction = sqlTransaction;
 
                 SqlParameter sqlParameter = new SqlParameter();
-                sqlParameter.ParameterName = "@name";
-                sqlParameter.Value = country.Name;
+                sqlParameter.ParameterName = "@id";
+                sqlParameter.Value = country.Id;
 
                 sqlCommand.Parameters.Add(sqlParameter);
 
                 try
                 {
-                    sqlCommand.CommandText = "DELETE Country " + "WHERE (Name) = (@name)";
+                    sqlCommand.CommandText = "DELETE Country " + "WHERE (Id) = (@id)";
                     sqlCommand.ExecuteNonQuery();
                     sqlTransaction.Commit();
                 }
